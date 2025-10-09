@@ -40,5 +40,8 @@ models:
     stagging: 
       +materialized: view
 
+models:
+  jaffle_shop:
+
       marts:
         +materialized: table
