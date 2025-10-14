@@ -39,9 +39,6 @@ models:
   Analytics:
     stagging: 
       +materialized: view
-
-models:
   jaffle_shop:
-
-      marts:
-        +materialized: table
+    marts:
+      +materialized: table
